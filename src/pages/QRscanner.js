@@ -65,7 +65,11 @@ function QRscanner() {
       {qrcode && <div>Current QR: {qrcode}</div>}
       {basket &&
         basket.map((item, i) => (
-          <div key={i}>{item}</div>
+          <div key={i}>
+            <a href={`${item}`} target="_blank" rel="noopener noreferrer">
+              {item}
+            </a>
+          </div>
           //   <div key={item.id}>
           //     {item.product} <br />
           //     {item.price} <br />
