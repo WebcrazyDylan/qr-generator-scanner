@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <div>
-      <Typography style={{ margin: 30 }} variant="h2">
-        QR Code Util
+      <Typography style={{ margin: 20 }} variant="h2">
+        QRCode Util
       </Typography>
 
       <Grid container spacing={6}>
@@ -21,7 +21,7 @@ function Home() {
                 style={{ padding: 10 }}
                 path={mdiQrcode}
                 title="QR Generator"
-                size={5}
+                size={4}
                 color="white"
               />
             </Button>
@@ -37,7 +37,7 @@ function Home() {
                 style={{ padding: 10 }}
                 path={mdiQrcodeScan}
                 title="QR Scanner"
-                size={5}
+                size={4}
                 color="white"
               />
             </Button>

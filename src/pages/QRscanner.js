@@ -40,7 +40,7 @@ function QRscanner() {
   return (
     <div>
       <Link to="/">
-        <Fab style={{ marginRight: 5 }} color="primary">
+        <Fab style={{ marginRight: 5 }} color="secondary">
           <ArrowBack />
         </Fab>
       </Link>
